@@ -26,7 +26,7 @@ docker pull cgr.dev/chainguard/apko
 docker run --rm -v "${PWD}":/work cgr.dev/chainguard/melange keygen
 ```
 
-### Build the php package
+### Build the go app package
 
 ```shell
 docker run --privileged --rm -v "${PWD}":/work -- \
